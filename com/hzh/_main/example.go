@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-gin/com/hzh/_main/html_render"
+	"go-gin/com/hzh/_main/query_postform"
 )
 
 // 快速入门
 func main() {
-	html_render.HtmlRenderMy()
+	query_postform.QueryForm()
 }
 
 func firstIn() {
