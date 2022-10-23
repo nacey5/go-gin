@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-gin/com/hzh/_main/query_postform"
+	"go-gin/com/hzh/_main/init_log"
 )
 
 // 快速入门
 func main() {
-	query_postform.QueryForm()
+	init_log.InitLog()
 }
 
 func firstIn() {
