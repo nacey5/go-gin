@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-gin/com/hzh/_main/init_log"
+	"go-gin/com/hzh/_main/redirect"
 )
 
 // 快速入门
 func main() {
-	init_log.InitLog()
+	redirect.RedirectGo()
 }
 
 func firstIn() {
